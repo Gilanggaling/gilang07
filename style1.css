@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'roboto';
+	color:#000000;
+}
+ 
+.judul{
+	background:#0033FF;
+	padding: 10px;
+	text-align: center;
+ 
+}
+ 
+.judul h1,h2,h3{
+	height: 15px;
+	color:#FFFFFF;
+}
+
+b{
+height:15px;
+color:#000000;
+}
+
+ 
+a.ex1:hover, a.ex1:active {
+color: red;
+}
+
+a.ex2:link, a.ex2:visited {
+  background-color: #0033FF;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.ex2:hover, a.ex2:active {
+  background-color:#0099FF;
+}
+ 
+.table{
+	border-collapse: collapse;	
+}
+ 
+table.table th th , table.table tr td{
+	padding: 10px 20px	;
+}
